@@ -1,7 +1,7 @@
 
 # Voice-Controlled Robot With the ESP32
 
-Build your own voice-controlled robot - all you will need is an ESP32 and Microphone board (and some motors etc...).
+Build your own voice-controlled robot - all you will need is an ESP32 and Microphone board (and servomotors ).
 
 
 
@@ -32,4 +32,5 @@ If you want to train your own, I added a couple of extra folders to the training
 ESP32 firmware built using Platform.io. This runs the neural network trying to detect the words `Up`, `Down`, `Forward` and `Backward`.
 
 The code assumes there are two continuous servos attached to the board such as the FS90R servo - these are readily available from various suppliers and you can normally buy them with wheels as well.
+
 
